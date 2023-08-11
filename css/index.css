@@ -128,3 +128,18 @@ body{
     border-radius: 11px;
     float: right;
 }
+.copyright{
+    text-align: left;
+}
+.links{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.links li{
+    float: right;
+    margin: 10px;
+}
+.links li a{
+    color:#333;
+    text-decoration: none;
+}

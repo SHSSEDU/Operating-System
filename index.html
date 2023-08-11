@@ -125,5 +125,23 @@
             <div id="degitalHealthyCard"></div>
             <div id="assistantFuncCard"></div>
         </div>
+        <footer>
+            <ul class="links">
+                <li><a href="https://shssedu.ac.cn/">SHSSEDU</a></li>
+                <li><a href="https://www.deepinos.org/">星火社区</a></li>
+                <li><a href="https://www.debian.org/">Debian</a></li>
+                <li><a href="https://www.deepin.org/">Deepin</a></li>    
+                <li><a href="https://mirrorz.org/">Mirrorz</a></li>   
+                <li><a href="https://www.kernel.org/">Kernel</a></li>   
+            </ul>
+            <p class="copyright">Copyright &copy;
+                <span id="year"></span> SHSSEDU All rights reserved
+              </p>
+        </footer>
+        <script>
+            const yearSpan = document.getElementById("year");
+            const currentYear = new Date().getFullYear().toString();
+            yearSpan.appendChild(document.createTextNode(currentYear));
+          </script>
     </body>
 </html>
